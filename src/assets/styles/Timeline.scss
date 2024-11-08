@@ -1,3 +1,5 @@
+/* Standardstile für die Timeline */
+
 .vertical-timeline span {
     color: white;
     font-family: 'Courier Prime', monospace;
@@ -27,10 +29,31 @@
     color: white;
 }
 
+/* Entfernt standardmäßige Farben und Schatten für Icons */
+.vertical-timeline-element--work .vertical-timeline-element-icon {
+    background: none;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Zentriert das Bild in der Timeline */
+}
+
+/* Styling für SVG-Icons */
 .svg-inline--fa {
     color: white;
 }
 
+/* Styling für die runden Profilbilder */
+.timeline-icon {
+    width: 90px; /* Anpassbare Größe */
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white; /* Optional: Rahmen um das Bild */
+    background-color: transparent;
+}
+
+/* Responsive Anpassung für kleinere Bildschirme */
 @media screen and (max-width: 1170px) {
     .vertical-timeline-element .vertical-timeline-element-date {
         color: rgb(39, 40, 34);
