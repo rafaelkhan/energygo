@@ -7,6 +7,7 @@ function Footer() {
   return (
     <footer>
       <p>A portfolio designed & built by Energygo</p>
+      <p>Contact us! office@energygo.at / +4369010011961 </p>
     </footer>
   );
 }
