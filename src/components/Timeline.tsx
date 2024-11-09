@@ -14,7 +14,7 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
-            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }} 
             iconStyle={{ background: 'transparent' }} /* Hintergrundfarbe entfernt */
             icon={<img src={rafaelImage} alt="Rafael Khan" className="timeline-icon" />}
           >
